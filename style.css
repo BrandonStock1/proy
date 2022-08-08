@@ -8,36 +8,35 @@
 
 body{
     font-family: arial;
+    background-color: #ece2c6;
 }
 
 .logo{
     max-width: 100px;
     max-height: 100px;
+    margin-left: 30px;
 }
 
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
-    background: #171717;
+    height: 100px;
+    background: #3f0e1e;
     position: fixed;
     width: 100%;
     z-index: 100%;
-
 }
 
 .navbar{
     display: flex;
     margin-right: 10px;
-
 }
 
 .navbar a{
@@ -46,19 +45,22 @@ body{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
-    
+    font-size: 19px;
+    font-weight: bold;
 }
 
-.logo{
+.header{
     margin-left: 30px;
-
+    font-size: 16px;
+    text-align: left;
 }
 
-.logo a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
 
+.button{
+    width: 98%;
+    height: 300px;
+    background: #171717;
+    border: none;
+    color: #fff;
+    margin-bottom: 16px;
 }
